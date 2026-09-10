@@ -1,0 +1,8 @@
+@import "../../src/index.css";
+
+.responder-page { background: linear-gradient(180deg, var(--warm-ivory) 0%, #fff 48%, var(--soft-blue-mist) 100%); }
+.fade-in { animation: fadeIn 180ms ease-out; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+.map-grid { background-color: #dff4eb; background-image: linear-gradient(#b9ded1 1px, transparent 1px), linear-gradient(90deg, #b9ded1 1px, transparent 1px); background-size: 32px 32px; }
+.map-road { position: absolute; height: 11px; background: #fff; border: 2px solid #b9ded1; transform: rotate(-25deg); }
+
